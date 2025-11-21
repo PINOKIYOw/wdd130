@@ -6,7 +6,7 @@
 
 :root {
     --primary-color:var(--primary-color) 
-    --accent-color:var(--accent1-color)
+    --accent-color:var(--accent-color)
 }
 
 body {
@@ -59,13 +59,11 @@ h1 {
     position: absolute;
     border: blue;
     margin: auto;
-    box-shadow: gray 10px;
 }
 
 .hero article img{
     float: right;
     width: 125px;
-    color: gray 10px;
 }
 
 article p {
