@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+:root {
+    --primary-color:var(--primary-color) 
+    --accent-color:var(--accent1-color)
+}
+
 body {
     font-family: var(--body-font);
     color: var(--accent1-color);
@@ -22,6 +27,7 @@ h1, h2 {
 nav, p, section, article {
     margin: 16px;
     padding: 8px;
+    position: relative;
 }
 
 .socialmedia a {
@@ -59,4 +65,9 @@ h1 {
 .hero article img{
     float: right;
     width: 125px;
+    color: gray 10px;
+}
+
+article p {
+    position: relative;
 }
