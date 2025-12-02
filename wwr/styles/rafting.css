@@ -5,7 +5,7 @@
 }
 
 :root {
-    --primary-color:var(--primary-color) 
+    --primary-color: var(--primary-color);
 }
 
 body {
@@ -86,7 +86,7 @@ section {
     margin: auto;
 }
 
-.hero article img{
+.hero article img {
     float: right;
     width: 125px;
 }
@@ -108,7 +108,7 @@ header img {
     grid-column: 1/2;
 }
 
-header nav a{
+header nav a {
     display: block;
     text-decoration: none;
     padding: 5px;
@@ -117,7 +117,7 @@ header nav a{
 header {
     display: grid;
     grid-template-columns: 250px 1fr;
-    align-items: center ;
+    align-items: center;
     font-size: large;
     font-weight: bold;
     background-color: aliceblue;
@@ -151,6 +151,7 @@ section img {
     max-width: 100%;
     height: auto;
 }
+
 .sector h2 {
     position: absolute;
     width: 100%;
