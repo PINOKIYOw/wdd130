@@ -151,7 +151,8 @@ section img {
 
 /* Make gallery items behave consistently */
 .gallery {
-    display: inline-block;   /* inline blocks align inline with others */
+    display: inline-block;
+    justify-content: flex-start; 
     text-align: center;
     gap: 10px;               /* gap works with flex/grid; kept for future use */
     margin: 0 8px;
