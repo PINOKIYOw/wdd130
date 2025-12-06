@@ -79,6 +79,12 @@ h3 {
     text-align: center;
 }
 
+.hero h1 {
+    position: absolute;
+    color: antiquewhite;
+    background-color: #000;
+}
+
 section {
     background-color: lightblue;
     position: relative;
